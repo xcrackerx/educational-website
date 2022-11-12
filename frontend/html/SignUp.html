@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Sign Up </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+  
+        .row {  
+            display: -ms-flexbox; 
+            display: flex;
+            -ms-flex-wrap: wrap; 
+            flex-wrap: wrap;
+        }
+        .side {
+            -ms-flex: 50%; 
+            flex: 50%;
+            padding: 200px;
+            background-image: url('https://whataftercollege.com/wp-content/uploads/2019/11/kissclipart-group-of-college-students-clipart-student-stock-ph-9f66aeb9736b3761.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+        }
+        .main {   
+            -ms-flex: 50%; 
+            flex: 50%;
+            padding: 200px;
+            background-image: url('https://res.cloudinary.com/highereducation/image/upload/f_auto,fl_lossy,q_auto/c_fill,g_face:center,h_433,w_835/v1594163723/BestColleges.com/Blog/BC-Blog_CollegeMentors_7.9.20_1.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+        }
+      
+        .button {
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 20px;
+            border: 10px solid #3fbac2;
+            background-color: #e1f4f3;
+            color:#035aa6;
+        }
+        
+        @media screen and (max-width: 700px) {
+        .row {   
+                flex-direction: column;
+            }
+        }
+      
+        @media screen and (max-width: 400px) {
+          .container {
+            float: none;
+            display: block;
+          }
+        }
+        @media screen and (max-width: 400px) {
+          .navbar a {
+            float: none;
+            display: block;
+            width: 100;
+          }
+        }
+    </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+        <a class="active" href="/Home.html"> Home </a> 
+        <a href="/About_Us.html"> About Us! </a> 
+        <a href="/ContactUs.html" class="right"> Contact Us </a> 
+        <a href="/SignUp.html" class="right"> Login </a>
+    </div>
+  </nav>
+      <div class="container">
+        <img src="/horizontal-shot-joyful-young-woman-with-glasses-posing-against-white-wall.jpg" alt="Cover_Pic" class="responsive" >
+        <div class="right2"> ANONYMOUS EDUCATORS! </div>  
+        <div class="right1"> LEARN FROM THE BEST,<br>ANYTIME!! ANYWHERE!! </div>
+      </div>
+    
+    <div class="header">
+        <h1> GLAD TO HAVE YOU BACK! </h1>
+    </div>
+
+    <div class="row" class="responsive">
+        <div class="side" align="center">
+                <button class="button"><a href="/SignIn_Student.html" class="lin"><b>I'm a Student</b></a></button>
+        </div>
+        <div class="main" align="center">
+                <button class="button"><a href="/SignIn_Mentor.html" class="lin"><b>I'm a Mentor</b></a></button>
+        </div>
+    </div>
+    <div class="footer">
+        <h4> Made with Love by <i>HyperText Assassins</i> </h4>
+    </div>
+</body>
+</html>

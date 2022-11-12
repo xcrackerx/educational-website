@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    font-size: 25px;
+    background-color: #b7c6e4;
+}
+.navbar {
+    width: 100%;
+    background-color:#252a34;
+    overflow: auto;
+  }
+  
+    .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .navbar a.right {
+        float: right;
+    }
+
+    .navbar a:hover {
+    background-color: #ff9a00;
+    }
+
+    .active {
+    background-color: #ff2e63;
+    }
+    .header {
+    padding: 20px;
+    text-align: center;
+    background: #0f1123;
+    color: #9fb8ad;
+    }
+.right2 {
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    font-size: 6vw;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#086972;
+  }
+  .right1 {
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    font-size: 2vw;
+    transform: translate(-50%, -50%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color:#0dceda;
+  }
+  .footer {
+    padding: 22px;
+    font-size: 15px;
+    color:#c86b85;
+    text-align: center;
+    background: rgb(247, 204, 204);
+}
+.responsive {
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(202, 26, 43);
+  }
+  .fontfiles{
+    font-size: 20px;
+    color: #0e3150;
+  }
+  a.lin:link {
+    color: #3d6cb9;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a.lin:visited {
+    color: #000839;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a.lin:hover {
+    color: #162447;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a.lin:active {
+    color:#a1d9ff;
+    background-color: transparent;
+    text-decoration: underline;
+  }

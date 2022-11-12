@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Sign In - Student </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        form {
+            border: 3px solid #f1f1f1;
+        }
+
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #3abd3f;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity: 0.6;
+        }
+
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+        }
+
+        .container1 {
+            padding: 16px;
+        }
+        
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+        
+        .cancelbtn {
+            width: 100%;
+        }
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+        }
+        @media screen and (max-width: 400px) {
+          .container {
+            float: none;
+            display: block;
+          }
+        }
+        @media screen and (max-width: 700px) {
+        .row {   
+                flex-direction: column;
+            }
+        }
+        @media screen and (max-width: 400px) {
+          .navbar a {
+            float: none;
+            display: block;
+            width: 100;
+          }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="navbar">
+        <a class="active" href="/Home.html"> Home </a> 
+        <a href="/About_Us.html"> About Us! </a> 
+        <a href="/ContactUs.html" class="right"> Contact Us </a> 
+        <a href="/SignUp.html" class="right"> Login </a>
+    </div>
+  </nav>
+    <nav>
+        <div class="container">
+          <img src="/horizontal-shot-joyful-young-woman-with-glasses-posing-against-white-wall.jpg" alt="Cover_Pic" class="responsive" >
+          <div class="right2"> ANONYMOUS EDUCATORS! </div>  
+          <div class="right1"> LEARN FROM THE BEST,<br>ANYTIME!! ANYWHERE!!
+            </div>
+        </div>
+    </nav>
+    <div class="header">
+        <h1> SIGN IN - STUDENT </h1>
+    </div>
+    
+    <form action="/action_page.php" method="post">
+
+        <div class="container1">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+                
+            <button type="submit">Login</button>
+            <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+    </form>
+
+    <div class="footer">
+        <h4> Made with Love by <i>HyperText Assassins</i> </h4>
+    </div>
+</body>
+</html>

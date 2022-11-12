@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Anonymous Educators! </title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+      
+      .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+      }
+
+      .container1 {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+      }
+
+      .container1::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: white;
+        border: 5px solid #0e3150;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+      }
+
+      .left {
+        left: 0;
+      }
+
+      .left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        right: 30px;
+        border: medium solid white;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent white;
+      }
+
+      .right3 {
+        left: 50%;
+      }
+
+      .right3::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 30px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+      }
+
+      .right3::after {
+        left: -16px;
+      }
+
+      @media screen and (max-width: 767px) {
+        .timeline::after {
+        left: 31px;
+        }
+        
+        .container1 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+        }
+        
+        .container1::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+        }
+
+        .left::after, .right3::after {
+        left: 15px;
+        }
+        
+        .right3 {
+        left: 0%;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .navbar a {
+          float: none;
+          display: block;
+          width: 100;
+        }
+      }
+        .content {
+        padding: 20px 30px;
+        background-color: #f2f4f7;
+        position: relative;
+        border-radius: 6px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: #0f4c75;
+      }
+    
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+        <a class="active" href="/Home.html"> Home </a> 
+        <a href="/About_Us.html"> About Us! </a> 
+        <a href="/ContactUs.html" class="right"> Contact Us </a> 
+        <a href="/SignUp.html" class="right"> Login </a>
+    </div>
+  </nav>
+  <nav>
+    <div class="container">
+      <img src="/horizontal-shot-joyful-young-woman-with-glasses-posing-against-white-wall.jpg" alt="Cover_Pic" class="responsive">
+      <div class="right2"> ANONYMOUS EDUCATORS! </div>  
+      <div class="right1"> LEARN FROM THE BEST,<br>ANYTIME!! ANYWHERE!!
+        </div>
+    </div>
+  </nav>
+  <div class="header">
+    <h1> COURSES!! </h1>
+  </div>
+  <div class="timeline">
+    <div class="container1 left">
+      <div class="content">
+        <h2 align="center">! SCHOOL LEVEL !</h2>
+        <p>Bored of studying from the same teachers? <br>Have loads of doubts unsolved? <br>Seek help from these wonderful mentors.......</p>
+        <p align="center"> <a class="lin" href="/Physics.html">PHYSICS</a> | <a class="lin" href="/Chemistry.html">CHEMISTRY</a> | <a class="lin" href="/Mathematics.html">MATHEMATICS</a> | <a class="lin" href="/English.html">ENGLISH</a> | <a class="lin" href="/Computer_Science.html">COMPUTER SCIENCE</a> | <a class="lin" href="/History.html">HISTORY</a> | <a class="lin" href="/Political_Science.html">POLITICAL SCIENCE</a> | <a class="lin" href="/Business_Studies.html">BUSINESS STUDIES</a> | <a class="lin" href="/Economics.html">ECONOMICS</a> | <a class="lin" href="/Psychology.html">PSYCHOLOGY</a></p>
+      </div>
+    </div>
+    <div class="container1 right3">
+      <div class="content">
+        <h2 align="center">! COLLEGE LEVEL !</h2>
+        <p>Does college seem way too difficult to you? <br>Need help with some course doubts and concepts? Take help from our phd scholars and freelancers....</p>
+        <p align="center"> <a class="lin" href="/Bachelor_of_Arts.html">Bachelor of Arts</a> | <a class="lin" href="/Bachelor_of_Science.html">Bachelor of Science</a> | <br><a class="lin" href="/Bachelor_of_Technology.html">Bachelor of Technology</a> | <a class="lin" href="/MBBS.html">MBBS</a> | <a class="lin" href="/Phd.html">PHD</a></p>
+      </div>
+    </div>
+    <div class="container1 left">
+      <div class="content">
+        <h2 align="center">! ENTRANCE !</h2>
+        <p>Are books and resources not sufficient enough to solve your mind clogging doubts? <br>Our mentors will be more than just happy to lend a hand to ambitious young minds who were in their shoes some years ago.....</p>
+        <p align="center"> <a class="lin" href="/Jee.html">JEE</a> | <a class="lin" href="/Neet.html">NEET</a> | <a class="lin" href="/CAT.html">CAT</a> | <a class="lin" href="/Gate.html">GATE</a> | <a class="lin" href="/UPSC.html">UPSC</a> </p>
+      </div>
+    </div>
+    <div class="container1 right3">
+      <div class="content">
+        <h2 align="center">! OLYMPIAD !</h2>
+        <p>Want to shine among your classmates with some exceptional achievements? <br>Grab this opportunity to receive tutions for some major topics....</p>
+        <p align="center"> <a class="lin" href="/IMO.html">IMO</a> | <a class="lin" href="/IIO.html">IIO</a> | <a class="lin" href="/KVPY.html">KVPY</a> | <a class="lin" href="/Ntse.html">NTSE</a> </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h4> Made with Love by <i>HyperText Assassins</i> </h4>
+  </div>
+</body>
+</html>
