@@ -1,14 +1,13 @@
-# HyperTextAssassins
+## HyperTextAssassins
 
-## CodeFeed by IOSD'DTU
-## ANONYMOUS EDUCATORS!
+### ANONYMOUS EDUCATORS!
 
-## THEME
+### THEME
 - Online Education
 - Welfare of Society
 - Start Up Idea                                  
 
-## OUR MISSION
+### OUR MISSION
 - Access to mentorship and coaching facilities to everyone at a very low cost.
 
 In this world full of competition and challenges, Anonymous Educators! lets you receive personalized coaching from experienced people at an affordable price so that you can emerge in flying colors after engaging in the toughest of exam preparations and consistently improve yourself through determination and strength. 
